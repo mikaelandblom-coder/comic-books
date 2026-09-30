@@ -3,7 +3,17 @@
 > A cute, private series for Mikael and Mai. Two teddy bears stand in for the two of them.
 > Small everyday moments, inside jokes and gentle humour.
 
-Status: **not started**. Everything below is a **proposal** to discuss. Nothing has been generated yet.
+Status: **paused**. The series is hidden on the site (`hidden: true` in `data/catalog.js`).
+Everything below is a **proposal** to pick up later. Nothing has been generated yet.
+
+### Privacy plan (before resuming)
+This repository is **public**. Anything committed here, including images, can be read on GitHub by
+anyone, even if the web page itself asks for a password. So before resuming:
+- Keep teddy-bear images **out of this repo**. Store them in a separate **private** repo, or encrypt them.
+- Password options:
+  1. **StatiCrypt:** the page and images are encrypted at build time, and the password decrypts them in the browser. It works on GitHub Pages and is free. Real protection, provided a strong password is used.
+  2. **Cloudflare Pages + Cloudflare Access:** real login (email one-time code) for just the two of us. Free for small use. Needs a separate private repo.
+  - My recommendation: option 2 if we want it truly private, option 1 if we want to keep everything on GitHub Pages.
 
 ---
 
@@ -13,7 +23,7 @@ Status: **not started**. Everything below is a **proposal** to discuss. Nothing 
 3. Signature items for each bear: a scarf, glasses, a bow, a favourite mug, a hobby prop?
 4. Setting: our real home and city, or a storybook world?
 5. Any recurring side characters (a pet, plants, friends)?
-6. Private (password or unlisted page) or public?
+6. ~~Private or public?~~ Password-protected (decided). See the privacy plan above.
 
 ---
 

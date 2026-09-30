@@ -6,7 +6,7 @@ A static comic website with three independent series:
 |---|---|---|
 | **The Nordic Ratewatch** | Semi-realistic noir "pricing command center", internal jokes | [`series/nordic-ratewatch/bible.md`](series/nordic-ratewatch/bible.md) |
 | **Credibility Man** | Silver Age superhero, stats puns, no internal references | [`series/credibility-man/bible.md`](series/credibility-man/bible.md) |
-| **White & Brown** (working title) | Watercolour picture-book teddy bears | [`series/teddy-bears/bible.md`](series/teddy-bears/bible.md) |
+| **White & Brown** (working title, *paused and hidden*) | Watercolour picture-book teddy bears, private and to be password-protected | [`series/teddy-bears/bible.md`](series/teddy-bears/bible.md) |
 
 ## How episodes are made
 Read **[PROMPTING.md](PROMPTING.md)**. In short: style lock, character locks, reference images and the

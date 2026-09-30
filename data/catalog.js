@@ -11,10 +11,10 @@ window.CATALOG = {
       theme: "ratewatch",
       status: "In production",
       cast: [
-        { name: "Nils \"The Oracle\" Bayesson", note: "Pricing guru. Calm, helpful, and technically correct in the most unbearable way." },
-        { name: "General Tibor Hrom", note: "Chief pricing actuary. Beatings will continue until margins improve." },
-        { name: "Anika \"A²\" Arora", note: "Junior actuary. Understands the loss ratio. It's giving underpriced." },
-        { name: "Ada \"Sudo\" Lindqvist", note: "Data scientist. Already fixed it. Also fixed the thing you were about to break." },
+        { name: "Martin Bayesson", note: "Pricing guru. Calm, helpful, and technically correct in the most unbearable way." },
+        { name: "General C.P.A.", note: "Chief Pricing Actuary. Not an accountant. Beatings will continue until margins improve." },
+        { name: "Anika Arora", note: "Junior actuary. Understands the loss ratio. It's giving underpriced." },
+        { name: "Zuzana Kódová", note: "Data scientist. Already fixed it. Also fixed the thing you were about to break." },
       ],
       episodes: [
         // {
@@ -49,7 +49,8 @@ window.CATALOG = {
       tagline: "Two bears, one sofa.",
       description: "Small, soft stories about two teddy bears who belong together.",
       theme: "teddy",
-      status: "Coming soon",
+      status: "Paused",
+      hidden: true, // private series: paused, and to be password-protected before it goes live
       cast: [
         { name: "White Bear", note: "TBD" },
         { name: "Brown Bear", note: "TBD" },

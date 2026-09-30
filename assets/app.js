@@ -1,6 +1,7 @@
 // Tiny hash router: #/  ·  #/<series>  ·  #/<series>/<episode-number>
 (function () {
-  const { series } = window.CATALOG;
+  // Hidden series (e.g. paused/private ones) are left out of navigation and routing entirely.
+  const series = window.CATALOG.series.filter((s) => !s.hidden);
   const app = document.getElementById("app");
   const nav = document.getElementById("series-nav");
 
@@ -15,7 +16,7 @@
     document.body.dataset.theme = "home";
     return `
       <section class="hero">
-        <h1>Three series. Actuaries, superheroes and teddy bears.</h1>
+        <h1>Actuaries, superheroes and questionable loss ratios.</h1>
         <p>Pick a comic.</p>
       </section>
       <section class="series-grid">

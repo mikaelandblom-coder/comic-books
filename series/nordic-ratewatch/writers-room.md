@@ -28,7 +28,7 @@ Lines that are weaker, and why:
 ## 2. Joke engines per character
 Each character should *produce* jokes by applying their lens to the situation, not by restating their personality.
 
-### Nils: kindness that lands like violence
+### Martin: kindness that lands like violence
 He's the most reasonable person in the room, and that is the joke. He helps too much, explains too well, and takes things literally.
 - ✅ "I'm not upset. I've simply updated my prior on you."
 - ✅ "Happy to help! First, let's define 'help'. I've prepared slides."
@@ -36,15 +36,16 @@ He's the most reasonable person in the room, and that is the joke. He helps too 
 - ✅ "It's not an opinion. It has a p-value."
 - ❌ "As a calm person, I will remain calm." (restates the trait)
 
-### General Hrom: disproportionate force, correctly aimed
+### General C.P.A.: disproportionate force, correctly aimed
 He's epic about tiny things and never wrong about the numbers. Twist war-film quotes onto office life rather than quoting them straight.
 - ✅ "I love the smell of reserve strengthening in the morning."
 - ✅ "Nobody leaves this room until the triangle confesses."
 - ✅ "Send the broker my regards. In a crate."
 - ✅ "In Slovakia we have a word for this spreadsheet. We do not say it in front of children."
+- ✅ (to a broker) "I am the CPA. The *A* is not for Accountant."
 - ❌ "I am very angry about the broker!" (volume isn't a joke)
 
-### A²: Gen-Z as a precise technical language
+### Anika: Gen-Z as a precise technical language
 The slang is **correct analysis in a different dialect**. Funniest when her translation is *more* accurate than the jargon.
 - ✅ "So chain ladder is a séance with Excel."
 - ✅ "'Straightforward risk' is a red flag wearing a blazer."
@@ -53,7 +54,7 @@ The slang is **correct analysis in a different dialect**. Funniest when her tran
 - ❌ "No cap fr fr slay." (slang with no content, which reads as cringe)
 - Rule: **one slang term per line at most**, and the line has to be true.
 
-### Sudo: deadpan competence
+### Zuzana: deadpan competence
 She says nothing for three panels, then fixes everything in one sentence and is mildly bored by it.
 - ✅ "Fixed it. Also fixed the thing you were about to break."
 - ✅ "The data's clean now. We had a conversation."
@@ -66,7 +67,7 @@ She says nothing for three panels, then fixes everything in one sentence and is 
 2. **The team reacts.** Each character through their lens. Get the first laugh here.
 3. **Escalation.** Someone (usually the General) overreacts in the wrong direction.
 4. **The actuarial turn.** The real technical point, delivered as a joke. This is what makes it ours.
-5. **Reversal.** Sudo or Nils solves it, or the broker gets what's coming.
+5. **Reversal.** Zuzana or Martin solves it, or the broker gets what's coming.
 6. **The button.** A final twist or callback that recontextualises the episode. **Never end on a summary.**
 
 ## 4. Rules of the room
