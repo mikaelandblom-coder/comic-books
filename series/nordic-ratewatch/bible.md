@@ -48,6 +48,7 @@ Background gags reward re-reading. Put one or two in every episode.
 ## 2. Cast (the "character lock")
 
 Paste the lock for **every character who appears**, word for word, and **attach their model sheet** (`characters/*.png`) once it exists.
+The prompts that generate the model sheets are in [`characters/sheet-prompts.md`](characters/sheet-prompts.md).
 
 Each character has **one signature colour**, so you can tell them apart even in a dark room:
 **General = olive · Martin = navy with a light-blue collar · Anika = purple · Zuzana = black with glasses.**
@@ -56,9 +57,10 @@ Each character has **one signature colour**, so you can tell them apart even in 
 
 ### MARTIN BAYESSON: pricing guru (Swedish)
 ```text
-MARTIN: Swedish man, early 30s, tall and slim, short neat blond hair with a side part, clean-shaven,
-light Nordic skin, calm symmetrical face, slight polite smile. Wears a NAVY CREWNECK SWEATER over
-a LIGHT-BLUE COLLARED SHIRT. Signature poses: fingers steepled under his chin, or eyes serenely
+MARTIN: Swedish man, early 30s, the TALLEST of the team (about 190 cm), slim, short neat blond
+hair with a side part, clean-shaven, light Nordic skin, calm symmetrical face, slight polite
+smile. Wears a NAVY CREWNECK SWEATER over a LIGHT-BLUE COLLARED SHIRT (collar visible), dark-grey
+chinos, brown leather shoes. Signature poses: fingers steepled under his chin, or eyes serenely
 closed. Never looks angry; at most mildly puzzled. His mug says "BAYES OR DIE".
 ```
 **Personality:** a "Sheldon Cooper"-style maths wizard, with the arrogance swapped for helpfulness. He genuinely wants to help everyone, and that is the problem: he will explain loss development to the broker, the cleaner and the fire alarm. He takes everything literally, is precise to a fault, and is serenely calm in a crisis because the crisis is "within the expected range".
@@ -66,11 +68,12 @@ closed. Never looks angry; at most mildly puzzled. His mug says "BAYES OR DIE".
 
 ### GENERAL C.P.A. (Ctibor Pavol Adamec): Chief Pricing Actuary (Slovak)
 ```text
-GENERAL C.P.A.: Slovak man, mid-50s, stocky and broad, short dark hair greying and receding,
+GENERAL C.P.A.: Slovak man, mid-50s, medium height (about 178 cm) but very broad and barrel-chested, short dark hair greying and receding,
 full trimmed dark beard with grey streaks, heavy brows, rectangular black glasses, permanent
 scowl. Wears an OLIVE-GREEN MILITARY JACKET with gold epaulettes, rows of colourful medal
-ribbons, a small SLOVAK FLAG patch on one shoulder and a "CPA COMMAND" patch on the other. Big gestures: pointing, fists on the
-table, leaning into the frame.
+ribbons, a small SLOVAK FLAG patch on one shoulder and a "CPA COMMAND" patch on the other.
+Olive trousers, polished black combat boots. Big gestures: pointing, fists on the table,
+leaning into the frame.
 ```
 **Personality:** rules with an iron fist. Loves war-film quotes and takes every rate filing as a military campaign. He is very opinionated, insults anyone (brokers, the board, the weather, Excel), and has zero tolerance for BS. He is **always right about the numbers**, and that is why he gets away with it.
 **Comic engine:** wildly disproportionate intensity, aimed exactly at the right target. He treats spreadsheets as war crimes and margins as territory.
@@ -79,18 +82,18 @@ Catchphrase (use at most once every few episodes): **"Beatings will continue unt
 
 ### ANIKA ARORA: junior pricing actuary (Indian-Canadian)
 ```text
-ANIKA: Indian-Canadian young woman, mid-20s, warm brown skin, black curly hair in a high
+ANIKA: Indian-Canadian young woman, mid-20s, the SHORTEST of the team (about 160 cm), warm brown skin, black curly hair in a high
 messy bun, large expressive eyes, big reactions (eye-rolls, side-eye, jaw drops). Wears a
-PURPLE HOODIE with a large gold "A²" printed on the chest (her initials). Often holding a phone or a
-bubble-tea cup.
+PURPLE HOODIE with a large gold "A²" printed on the chest (her initials), black joggers, chunky
+white sneakers. Often holding a phone or a bubble-tea cup.
 ```
 **Personality:** very energetic, fun and social. She speaks Gen-Z slang, knows everyone in the building and hears all the gossip first. She is **a genuinely good actuary**, and the slang is simply how she delivers correct technical verdicts.
 **Comic engine:** she translates actuarial truth into Gen-Z, and the translation is often more accurate than the original. She also punctures the General's speeches.
 
 ### ZUZANA KÓDOVÁ: data scientist (Slovak)
 ```text
-ZUZANA: Slovak woman, early 30s, long dark-brown hair in a practical ponytail, rectangular glasses,
-focused, unimpressed expression. Wears a plain BLACK BLOUSE or black top. Always at a laptop
+ZUZANA: Slovak woman, early 30s, average height (about 168 cm), slim, long dark-brown hair in a practical ponytail, rectangular glasses,
+focused, unimpressed expression. Wears a plain BLACK BLOUSE, dark jeans, black ankle boots. Always at a laptop
 or pointing a stylus at a screen full of code. A yellow rubber duck sits near her keyboard.
 ```
 **Personality:** owns every data process. She is a code wizard who can solve anything, and she is mildly bored by how easy it all is. She speaks only when she has something to say.
