@@ -30,6 +30,11 @@ and each clothing colour. Label at top: "<NAME> — MODEL SHEET". No other text.
 
 If one generation matches the drafts well, make it canonical: commit it and stop regenerating.
 
+## Script first, prompt second
+Write the dialogue as a script in `series/<series>/scripts/NNN-slug.md` and run the punch-up checklist from
+the series' `writers-room.md` before any image generation. Fixing a joke in text costs nothing; fixing it
+in a generated image costs a regeneration and some art consistency.
+
 ## Episode prompt template
 Copy this, fill it in, and send it to ChatGPT **with the reference images attached**.
 

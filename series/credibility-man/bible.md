@@ -3,9 +3,9 @@
 > A more ridiculous, old-school superhero comic. Statistics and modelling are the superpowers.
 > **No internal references.** Anyone who knows some stats or data science should get the jokes.
 
-Status: **pre-production**. The visual look comes from the draft *Gradient* issue in `reference/drafts/`.
+Status: **pre-production**. The visual look comes from the legacy *Gradient* issue in `legacy/`.
 
-> Note: the draft "Credibility Man #2: Lord Inadequate Premium" actually uses the Ratewatch cast
+> Note: the legacy "Credibility Man #2: Lord Inadequate Premium" actually uses the Ratewatch cast
 > and art style. That makes it a Ratewatch episode. Credibility Man issues should use only the cast below.
 
 ---

@@ -11,10 +11,10 @@ window.CATALOG = {
       theme: "ratewatch",
       status: "In production",
       cast: [
-        { name: "The Zen Analyst", note: "Eyes closed, fingers steepled, never wrong." },
-        { name: "The General", note: "Beatings will continue until margins improve." },
-        { name: "A²", note: "Cooked." },
-        { name: "The R Wizard", note: "Has already re-run everything." },
+        { name: "Nils \"The Oracle\" Bayesson", note: "Pricing guru. Calm, helpful, and technically correct in the most unbearable way." },
+        { name: "General Tibor Hrom", note: "Chief pricing actuary. Beatings will continue until margins improve." },
+        { name: "Anika \"A²\" Arora", note: "Junior actuary. Understands the loss ratio. It's giving underpriced." },
+        { name: "Ada \"Sudo\" Lindqvist", note: "Data scientist. Already fixed it. Also fixed the thing you were about to break." },
       ],
       episodes: [
         // {
@@ -55,6 +55,53 @@ window.CATALOG = {
         { name: "Brown Bear", note: "TBD" },
       ],
       episodes: [],
+    },
+    {
+      slug: "archive",
+      archive: true,
+      title: "The Archive",
+      tagline: "The early episodes, from before we had a style guide.",
+      description:
+        "Where it all started. These were made before the series bibles existed, so faces, costumes and even which series someone belongs to may shift from page to page. Kept here for history.",
+      theme: "home",
+      status: "Legacy",
+      episodes: [
+        {
+          number: 1,
+          label: "Ratewatch #1",
+          title: "Lord Inadequate Premium",
+          image: "legacy/ratewatch-01-lord-inadequate-premium.png",
+          blurb: "A raw written loss ratio of 42% meets an adjusted earned view.",
+        },
+        {
+          number: 2,
+          label: "Ratewatch #2",
+          title: "Broker Prime and the JPEG of Doom",
+          image: "legacy/ratewatch-02-broker-prime-and-the-jpeg-of-doom.png",
+          blurb: "The exposure schedule arrives as a photo of a printout. With a thumb.",
+        },
+        {
+          number: 3,
+          label: "Ratewatch",
+          title: "Lost Triangles",
+          image: "legacy/ratewatch-lost-triangles.png",
+          blurb: "We asked for loss triangles. We got a dinosaur.",
+        },
+        {
+          number: 4,
+          label: "Credibility Man",
+          title: "Gradient",
+          image: "legacy/credibility-man-01-gradient.png",
+          blurb: "A villain made of arrows who wants to ascend forever.",
+        },
+        {
+          number: 5,
+          label: "Credibility Man #2",
+          title: "Lord Inadequate Premium",
+          image: "legacy/credibility-man-02-lord-inadequate-premium.png",
+          blurb: "The crossover no one planned.",
+        },
+      ],
     },
   ],
 };

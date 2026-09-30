@@ -17,9 +17,11 @@ episode script go to ChatGPT, and the image and its prompt are committed togethe
 index.html, assets/        the website (plain HTML/CSS/JS, no build step)
 data/catalog.js            list of series, cast and episodes; edit this to publish
 series/<name>/bible.md     design document: style lock, character locks, rules
+series/<name>/scripts/     episode scripts, written and punched up before generating
+series/nordic-ratewatch/writers-room.md   how we make the dialogue funny
 series/<name>/characters/  character model sheets (reference images for prompts)
 series/<name>/episodes/    NNN-slug.png + NNN-slug.prompt.md
-reference/drafts/          the original four exploratory drafts
+legacy/                    early episodes made before the bibles (shown in the site's Archive)
 ```
 
 ## Viewing locally

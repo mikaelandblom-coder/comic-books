@@ -109,6 +109,16 @@ main { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; outline: none
 .badge { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
 .tagline { color: var(--muted); margin: 0; }
 
+/* Archive band on the home page */
+.archive-band {
+  margin-top: 28px; padding: 18px 20px;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
+  border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface);
+}
+.archive-band h2 { margin: 0; font-size: 1.15rem; }
+.archive-band p { margin: 2px 0 0; color: var(--muted); }
+.archive-band a { color: var(--accent); font-weight: 600; text-decoration: none; }
+
 /* ---------- Series page ---------- */
 .series-hero { padding: 24px 0 8px; }
 .series-title { font-family: var(--display); font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1; margin: 0 0 8px; }
@@ -148,10 +158,10 @@ body[data-theme="credibility"] .cast li { border-width: 2px; }
 .episode h1 { font-family: var(--display); margin: 0 0 4px; font-size: clamp(1.6rem, 4vw, 2.4rem); }
 .episode time { color: var(--muted); font-size: 0.9rem; }
 .comic-frame {
-  display: block; margin: 16px 0; background: #000;
+  display: block; width: fit-content; max-width: 100%; margin: 16px auto; background: #000;
   border: 2px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden;
 }
-.comic-frame img { width: 100%; height: auto; }
+.comic-frame img { max-width: 100%; height: auto; }
 .blurb { max-width: 65ch; color: var(--muted); }
 .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 20px; }
 .pager a, .pager span {

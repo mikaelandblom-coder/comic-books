@@ -7,6 +7,7 @@
   const esc = (s) =>
     String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const sorted = (s) => [...s.episodes].sort((a, b) => a.number - b.number);
+  const label = (e) => (e.label ? esc(e.label) : `#${e.number}`);
 
   nav.innerHTML = series.map((s) => `<a href="#/${s.slug}" data-slug="${s.slug}">${esc(s.title)}</a>`).join("");
 
@@ -19,6 +20,7 @@
       </section>
       <section class="series-grid">
         ${series
+          .filter((s) => !s.archive)
           .map((s) => {
             const eps = sorted(s);
             const latest = eps[eps.length - 1];
@@ -35,6 +37,20 @@
             </a>`;
           })
           .join("")}
+      </section>
+      ${archiveBand()}`;
+  }
+
+  function archiveBand() {
+    const a = series.find((s) => s.archive);
+    if (!a || !a.episodes.length) return "";
+    return `
+      <section class="archive-band">
+        <div>
+          <h2>${esc(a.title)}</h2>
+          <p>${esc(a.tagline)}</p>
+        </div>
+        <a href="#/${a.slug}">Browse ${a.episodes.length} early episodes →</a>
       </section>`;
   }
 
@@ -48,7 +64,7 @@
         <p class="description">${esc(s.description)}</p>
       </section>
       <section>
-        <h2 class="section-title">Episodes</h2>
+        <h2 class="section-title">${s.archive ? "Early episodes" : "Episodes"}</h2>
         ${
           eps.length
             ? `<div class="episode-grid">${eps
@@ -56,7 +72,7 @@
                   (e) => `
               <a class="episode-card" href="#/${s.slug}/${e.number}">
                 <img src="${esc(e.image)}" alt="" loading="lazy">
-                <div><span class="ep-num">#${e.number}</span> ${esc(e.title)}</div>
+                <div><span class="ep-num">${label(e)}</span> ${esc(e.title)}</div>
                 ${e.blurb ? `<p>${esc(e.blurb)}</p>` : ""}
               </a>`
                 )
@@ -64,12 +80,16 @@
             : `<div class="empty">No episodes yet. The first one is being drawn.</div>`
         }
       </section>
-      <section>
+      ${
+        s.cast?.length
+          ? `<section>
         <h2 class="section-title">Cast</h2>
         <ul class="cast">
           ${s.cast.map((c) => `<li><strong>${esc(c.name)}</strong><span>${esc(c.note)}</span></li>`).join("")}
         </ul>
-      </section>`;
+      </section>`
+          : ""
+      }`;
   }
 
   function episodePage(s, num) {
@@ -85,7 +105,7 @@
     return `
       <nav class="crumbs"><a href="#/${s.slug}">← ${esc(s.title)}</a></nav>
       <article class="episode">
-        <h1><span class="ep-num">#${e.number}</span> ${esc(e.title)}</h1>
+        <h1><span class="ep-num">${label(e)}</span> ${esc(e.title)}</h1>
         ${e.date ? `<time datetime="${esc(e.date)}">${esc(e.date)}</time>` : ""}
         <a class="comic-frame" href="${esc(e.image)}" target="_blank" rel="noopener">
           <img src="${esc(e.image)}" alt="${esc(e.alt || e.title)}">
